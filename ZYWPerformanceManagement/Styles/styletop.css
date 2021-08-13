@@ -1,0 +1,19 @@
+A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+
+body 
+{
+    font-size: 9pt;
+    font-family:"ËÎÌו";
+
+    overflow:auto;
+    margin: 0px; 
+    clip: rect(auto auto auto auto);
+	}

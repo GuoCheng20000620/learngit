@@ -1,0 +1,12 @@
+﻿<%--
+程序名称：SkinFile.skin
+程序功能：blue主题的皮肤文件
+--%>
+<%--下面的皮肤代码都可以被默认调用--%>　
+<asp:Label runat="server" BackColor="Gainsboro" BorderWidth="0px"
+　Font-Bold="True" Font-Size="Small" ForeColor="Fuchsia" /> 
+<asp:Button runat="server" Font-Size="Small" Font-Bold="True"
+  ForeColor="Red" />
+<asp:TextBox runat="server" BackColor="White" Font-Size="Small" 
+  ForeColor="#000040" />
+

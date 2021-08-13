@@ -1,0 +1,86 @@
+﻿BODY {
+	 BORDER-RIGHT: #91b6df 1px solid;
+	  BACKGROUND-POSITION: 50% top; 
+	 BORDER-TOP: #91b6df 0px solid; 
+	  BACKGROUND-ATTACHMENT: fixed; 
+   background-image: url(../Images/index/bg.gif);   
+	 
+	  MARGIN: 0px; FONT: 9px Verdana; 
+	  BORDER-LEFT: #91b6df 0px solid;   
+	  BORDER-BOTTOM: #91b6df 0px solid;
+	   BACKGROUND-REPEAT: repeat-x;
+	   font-size: 9pt;
+    font-family: "宋体";
+     clip: rect(auto auto auto auto);
+}
+
+A:link
+{
+    text-decoration: none;
+    color: #006677;
+    font-family: 宋体;
+}
+A:visited
+{
+    text-decoration: none;
+    color: #006677;
+    font-family: 宋体;
+}
+A:active
+{
+    text-decoration: none;
+    color: #006677;
+    font-family: 宋体;
+}
+A:hover
+{
+    text-decoration: underline;
+    color: #FF0000;
+}
+a.movelink
+{
+    text-decoration: none;
+    color: #006677;
+    font-family: 宋体;
+}
+a.movelink:hover
+{
+    color: #FF0000;
+    text-decoration: none;
+    position: relative;
+    top: 1pt;
+    font-family: 宋体;
+}
+}
+#menuContainer {
+	padding-right: 0px; background-image: url(../Images/index/bg.gif);background-repeat: repeat-x; padding-left: 0px; padding-bottom: 0px; margin: 0px; overflow: auto; width: 99%; padding-top: 0px; height: 580px
+}
+#menuContainer dl {
+	padding-left: 2px; margin: 0px
+}
+#menuContainer dt div {
+	background-position: right top; padding-left: 4px; font-weight: bold; font-size: 13px;  width: 93%; color: #175d90; margin-right: 0px; padding-top: 4px;  font-family: "宋体"; white-space: nowrap; height: 100%; text-align: left
+}
+#menuContainer dt {
+	border-right: #ffffff 1px solid; padding-left: 3px; background-image: url(../Images/index/lefttitle_bg.gif); margin: 2px 2px 5px 0px; border-left: #ffffff 1px solid; cursor: hand; background-repeat: repeat-x; height: 22px
+}
+
+
+#menuContainer dd {
+	margin: -4px 2px -4px 0px; background-color: #def0fe
+}
+#menuContainer ul {
+	padding-left: 13px; margin: 5px 0px 5px 20px; list-style-type: none
+}
+.myli {
+	LIST-STYLE-IMAGE: url(arrow.gif); color: #11598b; line-height: 21px; height: 21px
+}
+#menucontainer li a {
+	display: block; padding-left: 0px; color: #11598b; text-decoration: none
+}
+#menucontainer li a:hover {
+	display: block; color: #ac7b1e; background-color: #b9ddf6
+}
+#menucontainer li.focus a {
+	font-weight: bold; color: #ac7b1e
+}

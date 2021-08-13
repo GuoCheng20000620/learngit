@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>欢迎使用学生成绩管理系统</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        &nbsp;<table align="center" cellpadding="0" cellspacing="0" style="height: 498px;" width="100%">
+            <tr>
+                <td colspan="3" style="width:100%; height: 140px">
+                    <img src="images/22.jpg" style="width: 100%; height: 100%" /></td>
+            </tr>
+            <tr>
+             <%--   <td style="width: 2%; height:100%; background-image: url(images/edges.jpg);">
+                </td>--%>
+                <td style="width: 96%"; height=100%>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+               <%-- <td style="width: 2%;height:100%; background-image: url(images/edges.jpg);">
+                </td>--%>
+            </tr>
+            <tr>
+               <%-- <td colspan="3" style="width:900px; height: 100px">
+                    <img src="images/bottom.jpg" style="width: 100%; height:100%" /></td>--%>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

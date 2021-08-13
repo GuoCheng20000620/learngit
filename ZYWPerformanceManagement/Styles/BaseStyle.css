@@ -1,0 +1,361 @@
+﻿ html,body
+{
+    font-size: 9pt;
+    font-family: "宋体";
+    	  background-image: url(../Images/Main_bg.gif); 
+   
+    overflow:auto;
+    margin: 0px;
+    padding:0px;
+    height:100%;    
+    clip: rect(auto auto auto auto);
+}
+
+A:link
+{
+    text-decoration: none;
+    color: #006677;
+    font-family: 宋体;
+}
+A:visited
+{
+    text-decoration: none;
+    color: #000000;
+    font-family: 宋体;
+}
+A:active
+{
+    text-decoration: none;
+    color: #FF0000;
+    font-family: 宋体;
+}
+A:hover
+{
+    text-decoration: underline;
+    color: #FF0000;
+}
+a.movelink
+{
+    text-decoration: none;
+    color: #006677;
+    font-family: 宋体;
+}
+a.movelink:hover
+{
+    color: #FF0000;
+    text-decoration: none;
+    position: relative;
+    top: 1pt;
+    font-family: 宋体;
+}
+.float_left{ /*桌面显示图标用*/
+text-align:center; 
+height: 46px; 
+width: 20%; 
+float: left; 
+} 
+.regtxt
+{
+    border-right: #6c9e47 1px solid;
+    border-top: #6c9e47 1px solid;
+    border-left: #6c9e47 1px solid;
+    width: 170px;
+    border-bottom: #6c9e47 1px solid;
+    height: 21px;
+}
+.amountLine /*页脚统计行*/
+{
+    background: #c0d9e6;
+    height: 23px;
+     font-family: 宋体;
+     font-size:10pt;
+      text-align:right;
+       padding-right:10px;
+      
+}
+.fakeContainer /*可滚动的gridview*/
+{
+    float: left;
+    margin: 2px;
+    border: none;
+    width: 853px;
+    height: 435px;
+	background-color: #ffffff;
+    overflow: hidden;
+}
+
+/*下面一个，工资用*/
+.tbPrint
+{        
+    margin-bottom: 5px; 
+    border-collapse:collapse;  border: solid #000000; border-width:1px 1px 1px 1px; 
+    width:1500px;   
+    font-family: "Tahoma" , "宋体";
+    font-size: 9pt; 
+}
+/*显示工资表用*/
+.tbGvList
+{
+   /* border-collapse:collapse;  border: solid #000000; border-width:1px 1px 1px 1px; */
+    width:1600px;   
+    /* font-family: "Tahoma" , "宋体";*/
+  font-size: 9pt;
+    }
+   
+.td
+{
+    height: 27px;
+    font-family: 宋体;
+    font-size: 9pt;
+}
+/*自定义控件中使用*/
+.Detailtd {font-size: 9pt;border: 1px #000000;}
+.DefineType
+{
+    margin-left: 8px;
+    margin-top: 3px;
+    width: 100%;
+    height: 27px;
+}
+.navPoint
+{
+    cursor: hand;
+    font-family: Webdings;
+    font-size: 6pt;
+}
+
+.InputCss
+{
+    font-size: 10pt;
+    color: #003399;
+    font-family: "宋体";
+    font-style: normal; /*background-color: #CCCC99; */
+    border: 1px #93BEE2 solid;
+    margin-bottom: 0px;
+    margin-left: 41px;
+}
+.DetailPos
+{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 9pt;
+    margin-left: 5px;
+}
+
+.DetailCss
+{
+    /* 产品明细，在gridview里面的控件用*/
+    font-size: 9pt;
+    color: #003399;
+    font-family: "宋体";
+    font-style: normal; /*background-color: #CCCC99; */
+    border: 0px;
+    margin-bottom: 0px;
+}
+
+.InputLineCss
+{
+    color: rgb(255,0,0);
+    border-left: medium none;
+    border-right: medium none;
+    border-top: medium none;
+    border-bottom: 1px solid rgb(192,192,192);
+}
+.InputWhiteCss
+{
+    color: rgb(0,0,0);
+    border-left: medium none;
+    border-right: medium none;
+    border-top: medium none;
+    border-bottom: medium none;
+}
+/*按钮样式*/
+.ButtonCss
+{
+    font-family: "宋体";
+    font-size: 9pt;
+    color: #003399;
+    border: 1px solid #93bee2;
+    color: #006699;
+    background-color: #e8f4ff;
+    cursor: hand;
+    font-style: normal;
+    }
+/*table四周有1象素的框*/
+.tableRec
+{
+    font-size: 9pt;
+    border:  #FF6666 1px solid;
+    /*border-bottom: #FF6666 1px solid;
+    border-left: #FF6666 1px solid;
+    border-right: #FF6666 1px solid;
+    border-top: #FF6666 1px solid;*/
+}
+.tableRecGray
+{
+    font-size: 9pt;
+     border:  #CCCCCC 1px solid;
+   /*border-bottom: #CCCCCC 1px solid;
+    border-left: #CCCCCC 1px solid;
+    border-right: #CCCCCC 1px solid;
+    border-top: #CCCCCC 1px solid;*/
+}
+.tableRecOrder
+{
+    font-size: 9pt;
+    border: 1px #003399 solid;
+}
+/*--各种单据的页的头部--*/
+.pagetop
+{
+    border: 0px solid #eeeeee;
+    clear: both;
+    background: #c0d9e6;
+    width:100%;
+    height: 27px;
+}
+.pagetopleft
+{
+    float: left;
+    width: 110px;
+    margin-left: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    font-variant: small-caps;
+    padding: 3px 0px 0px 3px;
+}
+.pagetopright
+{
+    float: right;
+    width: 680px;
+    text-align: right;
+    margin-right: 1px;
+    height: 16px;
+}
+.pagemiddle
+{
+    border: 1px solid #eeeeee;
+    padding: 0px 0px 0px 15px;
+}
+.pagetitle
+{
+    background-image: url(../Images/topbg.jpg);
+    height: 23px;
+    font-weight: bold;
+    padding: 5px 0px 0px 15px;
+}
+
+.pager
+{
+    height: 27px;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+/*-----------------------主页用--------Bbbbbbb---------------------*/
+/* 定义div一条细线  margin-left: 10px  DIV本身左缩进 margin-right: 10px本身右缩进*/
+.titleline
+{
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: #156AA1;
+    padding: 5px 5px;
+    width: 300px;
+    margin-left: 8px;
+    margin-right: 2px;
+}
+/* 定义div一条细线*/
+.aline
+{
+    border-top: 1px solid #d3e4e4;
+    margin-left: 8px;
+    width: 90%;
+    height: 10px;
+    font-size: 1px;
+    clear: both;
+}
+/* 定义标题栏目*/
+.title
+{
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    font-size: 9pt;
+    border-bottom-color: #156AA1;
+    padding: 5px 5px;
+    width: 280px;
+    margin-left: 3px;
+    margin-right: 1px;
+    background: #CCCCCC;
+}
+
+/*-----------------------主页用--------E---------------------*/
+
+/*-----------------------Calendar--------B---------------------*/
+.C_FieldT
+{
+    font-size: 9px;
+    color: #000000;
+    font-family: "Times New Roman" , "Times" , "serif";
+}
+.C_Date
+{
+    font-size: 9px;
+    color: #000000;
+    font-family: "Times New Roman" , "Times" , "serif";
+}
+.C_YearT
+{
+    font-size: 12px;
+    color: #000000;
+}
+.C_Button
+{
+    font-family: "Times New Roman" , "Times" , "serif";
+    font-size: 10px;
+}
+.C_Clock
+{
+    font-size: 14px;
+    color: #000000;
+    font-family: "Times New Roman" , "Times" , "serif";
+}
+.C_Button
+{
+    font-family: "Tahoma" , "宋体";
+    font-size: 12px;
+    color: White;
+    border: 1px solid;
+    font-style: normal;
+    width: 20px;
+}
+/*-----------------------Calendar--------E---------------------*/
+
+/*----------------------*/
+.Search_Txt
+{
+    font-size: 9pt;
+}
+/* 显示详细信息*/
+.main
+{
+    float: right;
+    width: 99%;
+    border: 1px solid #d3e4e4;
+}
+/* 定义左边div宽度*/
+.mainleft
+{
+    float: left;
+   /* border: 1px solid #d3e4e4;*/
+    width: 550px;
+    padding: 10px 20px;
+}
+/* 定义漂浮到右边的div宽度*/
+.mainright
+{
+    float: right;
+    width: 230px;
+    border: 1px solid #d3e4e4;
+    background: #f9fdfd;
+}
+/*------------Search 用----EEEEEEEEEEEEE---------*/
